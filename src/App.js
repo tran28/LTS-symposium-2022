@@ -44,10 +44,28 @@ function App() {
 
   }, [tl])
 
+  function useTitle(title) {
+    useEffect(() => {
+      const prevTitle = document.title
+      document.title = title
+      return () => {
+        document.title = prevTitle
+      }
+    })
+  }
+
+  const Title = () => {
+    useTitle("Let's Talk Sustainability | York University Symposium 2022")
+    return (
+      <></>
+    )
+  }
+
 
 
   return (
     <div className="hero" ref={el => app = el}>
+      <Title />
       <div className="container">
         <div className="hero-inner">
           <div className="hero-content">
