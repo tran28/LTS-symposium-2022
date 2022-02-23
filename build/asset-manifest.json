@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9cf53df2.chunk.css",
+    "main.js": "/static/js/main.a641a4ea.chunk.js",
+    "main.js.map": "/static/js/main.a641a4ea.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.6e023c0d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.6e023c0d.js.map",
+    "static/js/2.36bba4ca.chunk.js": "/static/js/2.36bba4ca.chunk.js",
+    "static/js/2.36bba4ca.chunk.js.map": "/static/js/2.36bba4ca.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.2382bce1c14f44c63aa4e03970edfa41.js": "/precache-manifest.2382bce1c14f44c63aa4e03970edfa41.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.9cf53df2.chunk.css.map": "/static/css/main.9cf53df2.chunk.css.map",
+    "static/media/LTSPackage.pdf": "/static/media/LTSPackage.180af058.pdf",
+    "static/media/arrow-right.svg": "/static/media/arrow-right.31be4c0b.svg",
+    "static/media/ice.png": "/static/media/ice.180e580e.png",
+    "static/media/trees.png": "/static/media/trees.0559d950.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6e023c0d.js",
+    "static/js/2.36bba4ca.chunk.js",
+    "static/css/main.9cf53df2.chunk.css",
+    "static/js/main.a641a4ea.chunk.js"
+  ]
+}

@@ -5,6 +5,7 @@ import { TimelineLite, TweenMax, Power3 } from 'gsap';
 import imgTrees from "../images/trees.png";
 import imgIce from "../images/ice.png";
 import arrow from '../images/arrow-right.svg';
+import pdf from '../pdf/LTSPackage.pdf'
 
 function HeroSection() {
     let app = useRef(null)
@@ -69,7 +70,9 @@ function HeroSection() {
                             <div className="btn-row">
                                 <button className="explore-button">Explore
                                     <div className="arrow-icon">
-                                        <img src={arrow} alt="row" />
+                                        <a href={pdf} target="_blank" rel="noopener noreferrer">
+                                            <img src={arrow} alt="row" />
+                                        </a>
                                     </div>
                                 </button>
                             </div>
